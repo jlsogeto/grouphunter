@@ -1,0 +1,18 @@
+{
+  "name": "fb-group-scraper",
+  "version": "1.0.0",
+  "description": "Facebook Group Member Scraper with AI outreach",
+  "main": "scraper.js",
+  "scripts": {
+    "start": "node scraper.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "node-fetch": "^2.7.0",
+    "puppeteer": "^21.0.0"
+  }
+}
