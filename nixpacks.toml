@@ -1,0 +1,5 @@
+[phases.setup]
+nixPkgs = ["chromium", "nss", "freetype", "harfbuzz", "ca-certificates", "ttf-opensans"]
+
+[start]
+cmd = "node scraper.js"
